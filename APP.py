@@ -9,7 +9,7 @@ class_names = ['Healthy', 'Tumor']
 
 if options == 'Home':
     healthy = Image.open('data/Healthy/Not Cancer  (1).jpeg').resize((180, 180))
-    tumor = Image.open('data/Tumor/Cancer (1).png').resize((180, 180))
+    tumor = Image.open('data/BrainTumor/Cancer (1).png').resize((180, 180))
 
     st.markdown('Brain Tumor Prediction')
     st.markdown("Brain tumors are a devastating disease that can have a significant impact on patients' physical, emotional, and financial well-being." +
